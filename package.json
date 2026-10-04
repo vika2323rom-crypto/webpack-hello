@@ -1,0 +1,17 @@
+{
+  "name": "webpack-hello",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "victoriaromanova <vika2323rom@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "webpack --watch --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3"
+  }
+}
